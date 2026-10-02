@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgoArena | Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+```
+<header class="navbar">
+    <div class="logo">Algo<span>Arena</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#visualizer">Visualizer</a>
+        <a href="#about">About</a>
+    </nav>
+    <div class="status">● System Ready</div>
+</header>
+
+<main id="home">
+    <section class="hero">
+        <p class="tag">LEARN · VISUALIZE · OPTIMIZE</p>
+        <h1>Algorithms, <span>in action.</span></h1>
+        <p class="subtitle">
+            Explore graph algorithms, discover shortest paths,
+            and understand how data structures work.
+        </p>
+        <a href="#visualizer" class="main-btn">Launch Visualizer ↗</a>
+    </section>
+
+    <section class="stats">
+        <div class="stat-card">
+            <p>ALGORITHMS</p>
+            <h2>02</h2>
+            <span>Dijkstra & A*</span>
+        </div>
+        <div class="stat-card">
+            <p>GRAPH TYPE</p>
+            <h2>Weighted</h2>
+            <span>Nodes & edges</span>
+        </div>
+        <div class="stat-card">
+            <p>PROJECT STATUS</p>
+            <h2 class="green">Online</h2>
+            <span>Ready to explore</span>
+        </div>
+    </section>
+
+    <section id="visualizer" class="workspace">
+        <div class="section-heading">
+            <div>
+                <p class="tag">INTERACTIVE LAB</p>
+                <h2>Pathfinding Visualizer</h2>
+            </div>
+            <span class="live">● LIVE DEMO</span>
+        </div>
+
+        <div class="controls">
+            <label>
+                Algorithm
+                <select id="algorithm">
+                    <option value="dijkstra">Dijkstra's Algorithm</option>
+                    <option value="astar">A* Search</option>
+                </select>
+            </label>
+
+            <label>
+                Grid Size
+                <select id="gridSize">
+                    <option value="12">12 × 12</option>
+                    <option value="18" selected>18 × 18</option>
+                    <option value="24">24 × 24</option>
+                </select>
+            </label>
+
+            <button id="findPath" class="main-btn">Find Shortest Path</button>
+            <button id="reset" class="reset-btn">Reset Grid</button>
+        </div>
+
+        <div class="legend">
+            <span><i class="dot start"></i> Start</span>
+            <span><i class="dot end"></i> Destination</span>
+            <span><i class="dot wall"></i> Wall</span>
+            <span><i class="dot visited"></i> Visited</span>
+            <span><i class="dot path"></i> Shortest Path</span>
+        </div>
+
+        <div id="grid" class="grid"></div>
+
+        <div id="result" class="result">
+            Click "Find Shortest Path" to begin.
+        </div>
+        <p class="hint">Tip: Click cells to add or remove walls.</p>
+    </section>
+
+    <section id="about" class="about">
+        <p class="tag">THE IDEA</p>
+        <h2>Understand the logic.<br><span>See the result.</span></h2>
+        <p>
+            AlgoArena makes graph algorithms easier to understand
+            through interactive visualization and performance metrics.
+        </p>
+    </section>
+</main>
+
+<footer>ALGOARENA © 2026 · Built to explore algorithms.</footer>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>

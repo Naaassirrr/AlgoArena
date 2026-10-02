@@ -1,66 +1,78 @@
-# AlgoArena — Interactive Pathfinding Visualizer
+# AlgoArena — Pathfinding Algorithm Visualizer
 
-AlgoArena is a web-based visualization tool that demonstrates how pathfinding algorithms find routes through a grid containing obstacles.
+An interactive web-based visualization tool that demonstrates how pathfinding algorithms explore a grid and find a route from a start node to a target node.
 
-## Features
+## 🚀 Live Demo
 
-* Interactive grid with start and destination nodes
-* Add and remove obstacles by clicking grid cells
-* Visualize shortest paths
-* Compare Dijkstra's Algorithm and A* Search
-* Adjustable grid size
-* Path length, explored nodes, and search-time metrics
-* Responsive dark-themed interface
+**[Explore AlgoArena](https://naaassirrr.github.io/AlgoArena/)**
 
-## Algorithms
+## ✨ Features
 
-### 1. Dijkstra's Algorithm
+* **Dijkstra's Algorithm:** Finds a shortest path on a grid with equal movement costs.
+* **A* Search Algorithm:** Uses a heuristic to guide the search toward the target.
+* **Interactive Grid:** Visualize the search process node by node.
+* **Wall Obstacles:** Add obstacles and observe how they affect pathfinding.
+* **Adjustable Grid Size:** Experiment with different grid dimensions.
+* **Performance Metrics:** View path length, explored nodes, and search time.
 
-Explores nodes according to their shortest known distance from the starting node. It finds an optimal path when edge weights are non-negative.
-
-### 2. A* Search
-
-Uses path cost and a heuristic to guide the search toward the destination. This project uses Manhattan distance for a four-directional grid.
-
-## Technologies Used
+## 🛠️ Tech Stack
 
 * HTML5
 * CSS3
 * JavaScript
 * Git and GitHub
+* GitHub Pages
 
-## How to Run Locally
+## 🧠 Algorithms
 
-1. Clone this repository:
+### Dijkstra's Algorithm
+
+Explores nodes based on their shortest known distance from the starting node. With equal movement costs, it finds a shortest path when one exists.
+
+### A* Search
+
+Uses the cost so far and a heuristic estimate of the remaining distance to guide its search toward the target. With a suitable heuristic, it can find a shortest path on the grid.
+
+## 📂 Project Structure
+
+```text
+AlgoArena/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## ▶️ Run Locally
+
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/Naaassirrr/AlgoArena.git
    ```
 
-2. Open the project folder in VS Code.
+2. Open the project folder:
 
-3. Open `index.html` using the Live Server extension.
+   ```bash
+   cd AlgoArena
+   ```
 
-## How to Use
+3. Open `index.html` in your browser, or use the Live Server extension in VS Code.
 
-1. Choose Dijkstra's Algorithm or A* Search.
-2. Select a grid size.
-3. Click grid cells to create obstacles.
-4. Select **Find Shortest Path**.
-5. Review the resulting path and performance metrics.
-6. Select **Reset Grid** to start again.
+## 🎯 Learning Outcomes
 
-## Learning Objectives
+* Understanding graph traversal and shortest-path algorithms.
+* Visualizing algorithm behavior through interactive UI.
+* Practicing JavaScript DOM manipulation and event handling.
+* Deploying a static web application using GitHub Pages.
 
-This project demonstrates graph traversal, shortest-path algorithms, heuristic search, interactive visualization, and basic performance measurement.
+## 👨‍💻 Author
 
-## Future Improvements
+**Nasir Alam**
 
-* Step-by-step exploration animation
-* Weighted terrain and diagonal movement
-* Automated test cases
-* Repeatable algorithm benchmarks
+* GitHub: [Naaassirrr](https://github.com/Naaassirrr)
+* LinkedIn: [Nasir Alam](https://linkedin.com/in/nasir-alammm)
 
 ---
 
-Created by **Nasir Alam**
+*Built as a learning project to explore pathfinding algorithms and interactive web development.*

@@ -5,7 +5,9 @@ An interactive web-based visualization tool that demonstrates how pathfinding al
 ## 🚀 Live Demo
 
 **[Explore AlgoArena](https://naaassirrr.github.io/AlgoArena/)**
+## 📸 Preview
 
+![AlgoArena Preview](screenshot.png)
 ## ✨ Features
 
 * **Dijkstra's Algorithm:** Finds a shortest path on a grid with equal movement costs.
